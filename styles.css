@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: oldlace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+}
+
+.counter-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    font-size: 48px;
+    margin: 20px 0;
+    color: grey;
+}
+
+.counter-button,.reset-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.counter-button {
+    background-color: green;
+    color: white;
+}
+
+.reset-button {
+    background-color: red;
+    color: white;
+}
